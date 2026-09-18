@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Paws &amp; Purpose Animal Rescue</title>
+  <meta name="description" content="Learn about Paws & Purpose Animal Rescue's history, mission, vision, and the team behind our Johannesburg South shelter." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/>
+          <path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/>
+        </svg>
+        Paws &amp; Purpose
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="services.html">Adopt &amp; Get Involved</a></li>
+          <li><a href="enquiry.html">Enquire</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our Story</p>
+          <h1>Eight years of second chances</h1>
+          <p class="lede">Founded in 2018 in Johannesburg South, Paws &amp; Purpose is run by a small permanent staff and a network of volunteers who rescue, rehabilitate, and rehome abandoned and abused dogs and cats.</p>
+        </div>
+        <p>What started as one foster home taking in a handful of strays has grown into a shelter with a dedicated intake facility, a rotating team of foster carers, and partnerships with veterinary clinics across the city. We've never turned an animal away for lack of space — instead, we've grown our network of foster homes to meet the need.</p>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container grid grid--2">
+        <div class="panel">
+          <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M12 21s-7.5-4.6-10-9.1C.5 8.4 2.3 5 5.8 5c2 0 3.5 1.1 4.2 2.4C10.7 6.1 12.2 5 14.2 5c3.5 0 5.3 3.4 3.8 6.9C15.5 16.4 12 21 12 21z" stroke-linejoin="round"/>
+          </svg>
+          <h3>Our Mission</h3>
+          <p>To rescue, rehabilitate, and rehome vulnerable animals while educating the community on responsible pet ownership.</p>
+        </div>
+        <div class="panel panel--sand">
+          <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7z" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="3.2"/>
+          </svg>
+          <h3>Our Vision</h3>
+          <p>A Johannesburg where no adoptable animal is euthanised for lack of space or resources.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESPONSIVE IMAGE DEMO: picture + srcset ============ -->
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Community</p>
+          <h2>Our monthly open shelter day</h2>
+          <p>Volunteers, adopters, and neighbours meet at the shelter on the first Saturday of every month.</p>
+        </div>
+
+        <figure class="feature-photo">
+          <picture>
+            <!-- Serves a smaller file to narrow viewports and a larger one to wide viewports -->
+            <source
+              srcset="images/shelter-day-480.jpg 480w,
+                      images/shelter-day-800.jpg 800w,
+                      images/shelter-day-1200.jpg 1200w"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1140px"
+              type="image/jpeg">
+            <img
+              src="images/shelter-day-800.jpg"
+              srcset="images/shelter-day-480.jpg 480w,
+                      images/shelter-day-800.jpg 800w,
+                      images/shelter-day-1200.jpg 1200w"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1140px"
+              alt="Illustrated placeholder of a dog and a cat on a grassy hill at the shelter, standing in for a future community-day photograph"
+              width="1200" height="800" loading="lazy">
+          </picture>
+          <figcaption>Placeholder illustration — will be replaced with real event photography ahead of final submission (see <code>images/README.txt</code>).</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Our People</p>
+          <h2>The team behind the rescue</h2>
+        </div>
+        <div class="grid">
+          <div class="team-member">
+            <div class="avatar-ring" style="background:#8fa37e;">TR</div>
+            <h3>Thandi Radebe</h3>
+            <p class="animal-meta">Founder &amp; Shelter Manager</p>
+          </div>
+          <div class="team-member">
+            <div class="avatar-ring" style="background:#6d8564;">SM</div>
+            <h3>Sipho Molefe</h3>
+            <p class="animal-meta">Volunteer Coordinator</p>
+          </div>
+          <div class="team-member">
+            <div class="avatar-ring" style="background:#332e2a;">LN</div>
+            <h3>Dr. Lerato Ngwenya</h3>
+            <p class="animal-meta">Partner Veterinarian</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Paws &amp; Purpose Animal Rescue</h4>
+          <p style="color:#efe7d8;">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Adopt &amp; Get Involved</a></li>
+            <li><a href="enquiry.html">Enquiry Form</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="contact.html">Shelter Location</a></li>
+            <li><a href="contact.html">Satellite Intake Point</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
+        <span>Website built as part of an IIE web development assignment.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
