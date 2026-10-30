@@ -1,0 +1,5 @@
+# Netlify build settings: this is a plain static site, so there is no build step.
+[build]
+  publish = "."
+
+# Friendly 404 handled by 404.html automatically.

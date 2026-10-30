@@ -1,0 +1,8 @@
+# Paws & Purpose Animal Rescue — crawler instructions
+# Everything public may be crawled; utility pages are kept out of search results.
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
+Sitemap: https://paws-purpose-rescue.netlify.app/sitemap.xml
