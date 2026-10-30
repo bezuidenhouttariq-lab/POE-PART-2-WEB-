@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">A vet checking a rescue cat</title><desc id="d">Illustration of a veterinarian in a white coat with a stethoscope examining a cream cat on a treatment table.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8"/><stop offset="1" stop-color="#f4efe2"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<rect width="1200" height="800" fill="#e8f0f2"/><rect y="600" width="1200" height="200" fill="#cfdde0"/><rect x="60" y="80" width="200" height="140" rx="12" fill="#fdfbf7" stroke="#8fb1b8" stroke-width="5"/><path d="M160 105 V195 M115 150 H205" stroke="#8fa37e" stroke-width="22" stroke-linecap="round"/><rect x="420" y="520" width="520" height="40" rx="10" fill="#8fb1b8"/><rect x="470" y="560" width="22" height="160" fill="#7a9aa2"/><rect x="870" y="560" width="22" height="160" fill="#7a9aa2"/><g transform="translate(700 430) scale(0.95 0.95)">
+<path d="M60 40 Q130 30 120 -40" stroke="#efe7d8" stroke-width="16" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="45" rx="62" ry="68" fill="#efe7d8" stroke="#e0d5bd" stroke-width="3"/>
+<circle cx="0" cy="-35" r="48" fill="#efe7d8" stroke="#e0d5bd" stroke-width="3"/>
+<path d="M-38 -58 L-46 -110 L-8 -76 Z" fill="#e0d5bd"/><path d="M38 -58 L46 -110 L8 -76 Z" fill="#e0d5bd"/>
+<circle cx="-17" cy="-38" r="5.5" fill="#332e2a"/><circle cx="17" cy="-38" r="5.5" fill="#332e2a"/>
+<path d="M-9 -20 Q0 -12 9 -20" stroke="#332e2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</g><g transform="translate(300 270) scale(1.25)"><rect x="-14" y="150" width="14" height="110" rx="7" fill="#46555a"/><rect x="2" y="150" width="14" height="110" rx="7" fill="#46555a"/><rect x="-38" y="40" width="76" height="130" rx="26" fill="#ffffff" stroke="#c9d6d9" stroke-width="3"/><rect x="-56" y="52" width="20" height="90" rx="10" fill="#ffffff" stroke="#c9d6d9" stroke-width="3"/><rect x="36" y="52" width="20" height="90" rx="10" fill="#ffffff" stroke="#c9d6d9" stroke-width="3"/><circle cx="0" cy="8" r="30" fill="#a8704c"/><path d="M-31 6 Q-30 -30 0 -28 Q31 -30 31 6 Q10 -8 -31 6 Z" fill="#1f1b19"/><path d="M-20 44 Q-26 110 0 112 Q26 110 20 44" stroke="#332e2a" stroke-width="5" fill="none"/><circle cx="0" cy="116" r="10" fill="#8fa37e" stroke="#332e2a" stroke-width="3"/></g>
+</svg>

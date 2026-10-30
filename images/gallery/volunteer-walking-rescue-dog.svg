@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">A volunteer walking a rescue dog</title><desc id="d">Illustration of a volunteer in a green shirt walking a sage-green rescue dog on a lead across a grassy hill under a sunny sky.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8"/><stop offset="1" stop-color="#f4efe2"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<circle cx="980" cy="150" r="70" fill="#f7dc8a"/><path d="M0 560 Q300 440 600 540 T1200 500 V800 H0 Z" fill="#8fa37e"/>
+<path d="M0 650 Q350 560 700 640 T1200 610 V800 H0 Z" fill="#6d8564"/><path d="M520 560 Q600 520 700 585" stroke="#332e2a" stroke-width="4" fill="none"/><g transform="translate(470 300) scale(1.25)">
+<rect x="-14" y="150" width="14" height="110" rx="7" fill="#332e2a"/><rect x="2" y="150" width="14" height="110" rx="7" fill="#332e2a"/>
+<rect x="-34" y="40" width="68" height="125" rx="26" fill="#6d8564"/>
+<rect x="-52" y="52" width="20" height="90" rx="10" fill="#6d8564"/><rect x="32" y="52" width="20" height="90" rx="10" fill="#6d8564"/>
+<circle cx="0" cy="8" r="30" fill="#c68e6b"/>
+<path d="M-31 6 Q-30 -30 0 -28 Q31 -30 31 6 Q10 -8 -31 6 Z" fill="#332e2a"/>
+</g><g transform="translate(790 520) scale(-0.95 0.95)">
+<path d="M-95 20 Q-135 -10 -120 -50" stroke="#8fa37e" stroke-width="18" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="40" rx="85" ry="70" fill="#8fa37e"/>
+<rect x="-55" y="85" width="34" height="40" rx="14" fill="#8fa37e"/><rect x="21" y="85" width="34" height="40" rx="14" fill="#8fa37e"/>
+<circle cx="25" cy="-40" r="55" fill="#8fa37e"/>
+<path d="M-18 -60 Q-45 -125 5 -100 Q10 -70 -2 -55 Z" fill="#6d8564"/>
+<path d="M68 -60 Q95 -120 52 -100 Q46 -70 56 -55 Z" fill="#6d8564"/>
+<circle cx="8" cy="-44" r="6" fill="#332e2a"/><circle cx="42" cy="-44" r="6" fill="#332e2a"/>
+<ellipse cx="25" cy="-22" rx="12" ry="8" fill="#332e2a"/>
+</g>
+</svg>

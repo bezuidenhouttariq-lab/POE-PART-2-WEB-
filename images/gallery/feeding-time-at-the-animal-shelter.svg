@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">Feeding time at the shelter</title><desc id="d">Illustration of a dog and a cat eating from bowls side by side on the shelter floor, with a bag of food behind them.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6ebe1"/><stop offset="1" stop-color="#e6ebe1"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<rect width="1200" height="800" fill="#e6ebe1"/><rect y="560" width="1200" height="240" fill="#e0d5bd"/><rect x="900" y="260" width="170" height="300" rx="16" fill="#efe7d8" stroke="#332e2a" stroke-width="5"/><g font-family="Quicksand, Arial, sans-serif" font-weight="700" fill="#332e2a" text-anchor="middle"><text x="985" y="360" font-size="38">FOOD</text></g><circle cx="985" cy="440" r="36" fill="#8fa37e"/><g transform="translate(330 470) scale(1.0 1.0)">
+<path d="M-95 20 Q-135 -10 -120 -50" stroke="#8fa37e" stroke-width="18" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="40" rx="85" ry="70" fill="#8fa37e"/>
+<rect x="-55" y="85" width="34" height="40" rx="14" fill="#8fa37e"/><rect x="21" y="85" width="34" height="40" rx="14" fill="#8fa37e"/>
+<circle cx="25" cy="-40" r="55" fill="#8fa37e"/>
+<path d="M-18 -60 Q-45 -125 5 -100 Q10 -70 -2 -55 Z" fill="#6d8564"/>
+<path d="M68 -60 Q95 -120 52 -100 Q46 -70 56 -55 Z" fill="#6d8564"/>
+<circle cx="8" cy="-44" r="6" fill="#332e2a"/><circle cx="42" cy="-44" r="6" fill="#332e2a"/>
+<ellipse cx="25" cy="-22" rx="12" ry="8" fill="#332e2a"/>
+</g><g transform="translate(690 480) scale(0.95 0.95)">
+<path d="M60 40 Q130 30 120 -40" stroke="#8fa37e" stroke-width="16" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="45" rx="62" ry="68" fill="#8fa37e" stroke="#6d8564" stroke-width="3"/>
+<circle cx="0" cy="-35" r="48" fill="#8fa37e" stroke="#6d8564" stroke-width="3"/>
+<path d="M-38 -58 L-46 -110 L-8 -76 Z" fill="#6d8564"/><path d="M38 -58 L46 -110 L8 -76 Z" fill="#6d8564"/>
+<circle cx="-17" cy="-38" r="5.5" fill="#332e2a"/><circle cx="17" cy="-38" r="5.5" fill="#332e2a"/>
+<path d="M-9 -20 Q0 -12 9 -20" stroke="#332e2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</g><path d="M210 650 Q330 720 450 650 Z" fill="#b9805a"/><path d="M590 650 Q690 710 790 650 Z" fill="#b9805a"/><ellipse cx="330" cy="650" rx="120" ry="14" fill="#c99872"/><ellipse cx="690" cy="650" rx="100" ry="12" fill="#c99872"/><g fill="#7a4e30"><circle cx="300" cy="648" r="6"/><circle cx="335" cy="646" r="6"/><circle cx="368" cy="650" r="6"/><circle cx="670" cy="648" r="6"/><circle cx="705" cy="647" r="6"/></g>
+</svg>

@@ -3,27 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | Paws &amp; Purpose Animal Rescue</title>
-  <meta name="description" content="Learn about Paws & Purpose Animal Rescue's history, mission, vision, and the team behind our Johannesburg South shelter." />
+  <title>About Us | Paws &amp; Purpose Animal Rescue Johannesburg</title>
+  <meta name="description" content="Meet the team behind Paws &amp; Purpose, a Johannesburg South animal rescue that has rehomed 620+ dogs and cats since 2018. Our story, mission and gallery." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#8fa37e" />
+  <link rel="canonical" href="https://paws-purpose-rescue.netlify.app/about.html" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter: how the page looks when shared on Facebook, WhatsApp, X, LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paws &amp; Purpose Animal Rescue" />
+  <meta property="og:title" content="About Us | Paws &amp; Purpose Animal Rescue Johannesburg" />
+  <meta property="og:description" content="Meet the team behind Paws &amp; Purpose, a Johannesburg South animal rescue that has rehomed 620+ dogs and cats since 2018. Our story, mission and gallery." />
+  <meta property="og:url" content="https://paws-purpose-rescue.netlify.app/about.html" />
+  <meta property="og:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+  <meta property="og:image:alt" content="Illustration of a dog and a cat sitting together beside the Paws &amp; Purpose name" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Us | Paws &amp; Purpose Animal Rescue Johannesburg" />
+  <meta name="twitter:description" content="Meet the team behind Paws &amp; Purpose, a Johannesburg South animal rescue that has rehomed 620+ dogs and cats since 2018. Our story, mission and gallery." />
+  <meta name="twitter:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- Security: Content Security Policy (also sent as an HTTP header via _headers on Netlify) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Speed: connect to the font host early; display=swap shows text immediately -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <noscript><style>.tablist, .accordion-icon, .js-only { display: none !important; }</style></noscript>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://paws-purpose-rescue.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://paws-purpose-rescue.netlify.app/about.html"}]}</script>
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="brand">
-        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/>
-          <path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/>
-        </svg>
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/></svg>
         Paws &amp; Purpose
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
-      <nav class="main-nav" aria-label="Primary">
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">&#9776;</button>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html" aria-current="page">About</a></li>
@@ -35,16 +65,22 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
 
     <section>
       <div class="container">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">About</li>
+          </ol>
+        </nav>
         <div class="section-head">
           <p class="eyebrow">Our Story</p>
-          <h1>Eight years of second chances</h1>
+          <h1>Eight years of second chances for rescue animals in Johannesburg</h1>
           <p class="lede">Founded in 2018 in Johannesburg South, Paws &amp; Purpose is run by a small permanent staff and a network of volunteers who rescue, rehabilitate, and rehome abandoned and abused dogs and cats.</p>
         </div>
-        <p>What started as one foster home taking in a handful of strays has grown into a shelter with a dedicated intake facility, a rotating team of foster carers, and partnerships with veterinary clinics across the city. We've never turned an animal away for lack of space — instead, we've grown our network of foster homes to meet the need.</p>
+        <p>What started as one foster home taking in a handful of strays has grown into a shelter with a dedicated intake facility, a rotating team of foster carers, and partnerships with veterinary clinics across the city. We've never turned an animal away for lack of space — instead, we've grown our network of foster homes to meet the need. Ready to meet them? <a href="services.html#animals">Browse the animals looking for a home</a> or <a href="enquiry.html?type=volunteer">volunteer with us</a>.</p>
       </div>
     </section>
 
@@ -54,7 +90,7 @@
           <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
             <path d="M12 21s-7.5-4.6-10-9.1C.5 8.4 2.3 5 5.8 5c2 0 3.5 1.1 4.2 2.4C10.7 6.1 12.2 5 14.2 5c3.5 0 5.3 3.4 3.8 6.9C15.5 16.4 12 21 12 21z" stroke-linejoin="round"/>
           </svg>
-          <h3>Our Mission</h3>
+          <h2 class="h3-size">Our Mission</h2>
           <p>To rescue, rehabilitate, and rehome vulnerable animals while educating the community on responsible pet ownership.</p>
         </div>
         <div class="panel panel--sand">
@@ -62,7 +98,7 @@
             <path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7z" stroke-linejoin="round"/>
             <circle cx="12" cy="12" r="3.2"/>
           </svg>
-          <h3>Our Vision</h3>
+          <h2 class="h3-size">Our Vision</h2>
           <p>A Johannesburg where no adoptable animal is euthanised for lack of space or resources.</p>
         </div>
       </div>
@@ -81,22 +117,73 @@
           <picture>
             <!-- Serves a smaller file to narrow viewports and a larger one to wide viewports -->
             <source
-              srcset="images/shelter-day-480.jpg 480w,
-                      images/shelter-day-800.jpg 800w,
-                      images/shelter-day-1200.jpg 1200w"
+              srcset="images/community-open-shelter-day-480.jpg 480w,
+                      images/community-open-shelter-day-800.jpg 800w,
+                      images/community-open-shelter-day-1200.jpg 1200w"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1140px"
               type="image/jpeg">
             <img
-              src="images/shelter-day-800.jpg"
-              srcset="images/shelter-day-480.jpg 480w,
-                      images/shelter-day-800.jpg 800w,
-                      images/shelter-day-1200.jpg 1200w"
+              src="images/community-open-shelter-day-800.jpg"
+              srcset="images/community-open-shelter-day-480.jpg 480w,
+                      images/community-open-shelter-day-800.jpg 800w,
+                      images/community-open-shelter-day-1200.jpg 1200w"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1140px"
-              alt="Illustrated placeholder of a dog and a cat on a grassy hill at the shelter, standing in for a future community-day photograph"
+              alt="Illustration of a dog and a cat on a grassy hill at the Paws &amp; Purpose open shelter day"
               width="1200" height="800" loading="lazy">
           </picture>
           <figcaption>Placeholder illustration — will be replaced with real event photography ahead of final submission (see <code>images/README.txt</code>).</figcaption>
         </figure>
+      </div>
+    </section>
+
+
+    <!-- ============ GALLERY WITH LIGHTBOX ============ -->
+    <section id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Life at the Shelter</p>
+          <h2>Gallery: a day with our rescue dogs and cats</h2>
+          <p>Select any picture to view it larger. Use the arrow keys or swipe to move between images.</p>
+        </div>
+        <ul class="gallery">
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/volunteer-walking-rescue-dog.svg" data-caption="Volunteer dog walks run every morning before the shelter opens." aria-haspopup="dialog">
+              <img src="images/gallery/volunteer-walking-rescue-dog.svg" alt="A volunteer walking a rescue dog on a lead" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Volunteer dog walks run every morning before the shelter opens.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/cat-relaxing-on-sunny-windowsill.svg" data-caption="Sunny windowsills are the most-requested feature in our cat rooms." aria-haspopup="dialog">
+              <img src="images/gallery/cat-relaxing-on-sunny-windowsill.svg" alt="A cream cat relaxing on a sunny windowsill" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Sunny windowsills are the most-requested feature in our cat rooms.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/adoption-day-family-welcomes-new-dog.svg" data-caption="Adoption day: a family takes their new best friend home." aria-haspopup="dialog">
+              <img src="images/gallery/adoption-day-family-welcomes-new-dog.svg" alt="A family welcoming their newly adopted dog" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Adoption day: a family takes their new best friend home.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/feeding-time-at-the-animal-shelter.svg" data-caption="Feeding time: every animal gets a measured, vet-approved diet." aria-haspopup="dialog">
+              <img src="images/gallery/feeding-time-at-the-animal-shelter.svg" alt="A dog and a cat eating from bowls at the shelter" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Feeding time: every animal gets a measured, vet-approved diet.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/vet-health-check-for-a-rescue-cat.svg" data-caption="Every animal is health-checked, vaccinated and sterilised before adoption." aria-haspopup="dialog">
+              <img src="images/gallery/vet-health-check-for-a-rescue-cat.svg" alt="A vet giving a rescue cat a health check" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Every animal is health-checked, vaccinated and sterilised before adoption.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="gallery-item" data-full="images/gallery/foster-home-dog-and-cat-on-the-sofa.svg" data-caption="Foster homes give animals a break from shelter life." aria-haspopup="dialog">
+              <img src="images/gallery/foster-home-dog-and-cat-on-the-sofa.svg" alt="A foster dog and cat snuggled on a sofa" width="600" height="400" loading="lazy" decoding="async" />
+              <span class="gallery-caption">Foster homes give animals a break from shelter life.</span>
+            </button>
+          </li>
+        </ul>
+        <p class="note">Illustrations stand in for real shelter photography until it is available.</p>
       </div>
     </section>
 
@@ -108,17 +195,17 @@
         </div>
         <div class="grid">
           <div class="team-member">
-            <div class="avatar-ring" style="background:#8fa37e;">TR</div>
+            <div class="avatar-ring avatar-ring--sage">TR</div>
             <h3>Thandi Radebe</h3>
             <p class="animal-meta">Founder &amp; Shelter Manager</p>
           </div>
           <div class="team-member">
-            <div class="avatar-ring" style="background:#6d8564;">SM</div>
+            <div class="avatar-ring avatar-ring--moss">SM</div>
             <h3>Sipho Molefe</h3>
             <p class="animal-meta">Volunteer Coordinator</p>
           </div>
           <div class="team-member">
-            <div class="avatar-ring" style="background:#332e2a;">LN</div>
+            <div class="avatar-ring avatar-ring--charcoal">LN</div>
             <h3>Dr. Lerato Ngwenya</h3>
             <p class="animal-meta">Partner Veterinarian</p>
           </div>
@@ -128,15 +215,16 @@
 
   </main>
 
+  <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Paws &amp; Purpose Animal Rescue</h4>
-          <p style="color:#efe7d8;">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
+          <h2 class="footer-heading">Paws &amp; Purpose Animal Rescue</h2>
+          <p class="footer-blurb">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
         </div>
         <div>
-          <h4>Explore</h4>
+          <h2 class="footer-heading">Explore</h2>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Adopt &amp; Get Involved</a></li>
@@ -144,27 +232,29 @@
           </ul>
         </div>
         <div>
-          <h4>Visit</h4>
+          <h2 class="footer-heading">Visit</h2>
           <ul>
-            <li><a href="contact.html">Shelter Location</a></li>
-            <li><a href="contact.html">Satellite Intake Point</a></li>
+            <li><a href="contact.html#find-us">Shelter Location</a></li>
+            <li><a href="contact.html#find-us">Satellite Intake Point</a></li>
+            <li><a href="contact.html#message">Send Us a Message</a></li>
           </ul>
         </div>
         <div>
-          <h4>Follow</h4>
+          <h2 class="footer-heading">Follow</h2>
           <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
+        <span>&copy; <span data-year>2026</span> Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
         <span>Website built as part of an IIE web development assignment.</span>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/gallery.js" defer></script>
 </body>
 </html>

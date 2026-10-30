@@ -3,27 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adopt &amp; Get Involved | Paws &amp; Purpose Animal Rescue</title>
-  <meta name="description" content="Browse adoptable dogs and cats, learn our adoption process, and find out how to volunteer or sponsor an animal at Paws & Purpose." />
+  <title>Adopt a Dog or Cat in Johannesburg | Paws &amp; Purpose</title>
+  <meta name="description" content="Browse adoptable rescue dogs and cats in Johannesburg South, learn our four-step adoption process, and find ways to volunteer, foster or sponsor an animal." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#8fa37e" />
+  <link rel="canonical" href="https://paws-purpose-rescue.netlify.app/services.html" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter: how the page looks when shared on Facebook, WhatsApp, X, LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paws &amp; Purpose Animal Rescue" />
+  <meta property="og:title" content="Adopt a Dog or Cat in Johannesburg | Paws &amp; Purpose" />
+  <meta property="og:description" content="Browse adoptable rescue dogs and cats in Johannesburg South, learn our four-step adoption process, and find ways to volunteer, foster or sponsor an animal." />
+  <meta property="og:url" content="https://paws-purpose-rescue.netlify.app/services.html" />
+  <meta property="og:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+  <meta property="og:image:alt" content="Illustration of a dog and a cat sitting together beside the Paws &amp; Purpose name" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Adopt a Dog or Cat in Johannesburg | Paws &amp; Purpose" />
+  <meta name="twitter:description" content="Browse adoptable rescue dogs and cats in Johannesburg South, learn our four-step adoption process, and find ways to volunteer, foster or sponsor an animal." />
+  <meta name="twitter:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- Security: Content Security Policy (also sent as an HTTP header via _headers on Netlify) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Speed: connect to the font host early; display=swap shows text immediately -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <noscript><style>.tablist, .accordion-icon, .js-only { display: none !important; }</style></noscript>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://paws-purpose-rescue.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Adopt & Get Involved", "item": "https://paws-purpose-rescue.netlify.app/services.html"}]}</script>
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="brand">
-        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/>
-          <path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/>
-        </svg>
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/></svg>
         Paws &amp; Purpose
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
-      <nav class="main-nav" aria-label="Primary">
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">&#9776;</button>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -35,28 +65,35 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
 
     <section>
       <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Adopt &amp; Get Involved</li>
+          </ol>
+        </nav>
         <div class="section-head">
-          <p class="eyebrow">How It Works</p>
-          <h1>Our adoption process</h1>
+          <p class="eyebrow">Adopt, Volunteer, Sponsor</p>
+          <h1>Adopt a rescue dog or cat in Johannesburg South</h1>
           <p class="lede">Four straightforward steps take you from browsing to bringing your new companion home.</p>
         </div>
 
+        <h2 class="sub-heading">Our adoption process</h2>
         <div class="steps">
           <div class="step">
             <h3>Browse &amp; enquire</h3>
-            <p>Meet the animals below and submit an enquiry for the one who catches your eye.</p>
+            <p>Meet the animals below and submit an <a href="enquiry.html?type=adopt">enquiry</a> for the one who catches your eye.</p>
           </div>
           <div class="step">
             <h3>Meet &amp; greet</h3>
-            <p>We'll arrange a supervised visit at the shelter so you and the animal can meet in person.</p>
+            <p>We&rsquo;ll arrange a supervised visit at the shelter so you and the animal can meet in person.</p>
           </div>
           <div class="step">
             <h3>Home check</h3>
-            <p>A quick, friendly home visit or call confirms your space suits the animal's needs.</p>
+            <p>A quick, friendly home visit or call confirms your space suits the animal&rsquo;s needs.</p>
           </div>
           <div class="step">
             <h3>Take them home</h3>
@@ -66,139 +103,189 @@
       </div>
     </section>
 
-    <!-- ============ ANIMAL GRID ============ -->
+    <!-- ============ ANIMAL LISTING (rendered by JavaScript from js/animals-data.js) ============ -->
     <section id="animals" class="section-alt">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Ready &amp; Waiting</p>
-          <h2>Animals looking for a home</h2>
-          <p>Every animal is vaccinated, sterilised, and health-checked before adoption. Photography for each profile is being added as it's taken — see the note at the end of this section.</p>
+          <h2>Dogs and cats looking for a home</h2>
+          <p>Every animal is vaccinated, sterilised, and health-checked before adoption. Search by name, breed or personality, filter by dog or cat, and sort the list.</p>
         </div>
 
-        <div class="grid">
+        <form id="animal-controls" class="controls" role="search" aria-label="Search and filter animals" action="services.html" method="get">
+          <div class="controls-field controls-field--search">
+            <label for="animal-search">Search animals</label>
+            <input type="search" id="animal-search" name="q" placeholder="e.g. Buddy, senior, good with kids" maxlength="60" autocomplete="off" />
+          </div>
+          <div class="controls-field">
+            <label for="animal-type">Show</label>
+            <select id="animal-type" name="type">
+              <option value="all">Dogs &amp; cats</option>
+              <option value="dog">Dogs only</option>
+              <option value="cat">Cats only</option>
+            </select>
+          </div>
+          <div class="controls-field">
+            <label for="animal-sort">Sort by</label>
+            <select id="animal-sort" name="sort">
+              <option value="name-asc">Name (A&ndash;Z)</option>
+              <option value="age-asc">Age (youngest first)</option>
+              <option value="age-desc">Age (oldest first)</option>
+              <option value="fee-asc">Adoption fee (lowest first)</option>
+            </select>
+          </div>
+          <button type="button" id="reset-filters" class="btn btn-link js-only">Reset</button>
+        </form>
 
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#e6ebe1;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="55" r="30" fill="#8fa37e"/><path d="M26 40 Q18 15 38 25 Q40 42 34 48 Z" fill="#6d8564"/><path d="M74 40 Q82 15 62 25 Q60 42 66 48 Z" fill="#6d8564"/><circle cx="40" cy="52" r="3.2" fill="#332e2a"/><circle cx="60" cy="52" r="3.2" fill="#332e2a"/><ellipse cx="50" cy="64" rx="6" ry="4" fill="#332e2a"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Buddy <span class="tag">Dog</span></h3>
-              <p class="animal-meta">Cross-breed &middot; 2 years &middot; Good with kids</p>
-              <p>Gentle, food-motivated, loves long walks.</p>
-            </div>
-          </article>
+        <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
 
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#efe7d8;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="56" r="26" fill="#efe7d8" stroke="#e0d5bd" stroke-width="2"/><path d="M32 38 L26 18 L42 34 Z" fill="#e0d5bd"/><path d="M68 38 L74 18 L58 34 Z" fill="#e0d5bd"/><circle cx="42" cy="54" r="3" fill="#332e2a"/><circle cx="58" cy="54" r="3" fill="#332e2a"/><path d="M45 62 Q50 66 55 62" stroke="#332e2a" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Miso <span class="tag">Cat</span></h3>
-              <p class="animal-meta">Domestic shorthair &middot; 1 year &middot; Independent</p>
-              <p>Quiet companion, best with a sunny windowsill.</p>
-            </div>
-          </article>
+        <div class="grid" id="animal-grid"></div>
 
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#e6ebe1;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="55" r="28" fill="#6d8564"/><path d="M28 42 Q22 20 40 28 Q40 44 36 50 Z" fill="#332e2a" opacity="0.3"/><path d="M72 42 Q78 20 60 28 Q60 44 64 50 Z" fill="#332e2a" opacity="0.3"/><circle cx="41" cy="52" r="3" fill="#332e2a"/><circle cx="59" cy="52" r="3" fill="#332e2a"/><ellipse cx="50" cy="63" rx="5.5" ry="3.6" fill="#332e2a"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Nala <span class="tag">Dog</span></h3>
-              <p class="animal-meta">Boerboel cross &middot; 4 years &middot; Loyal &amp; calm</p>
-              <p>Steady senior girl, looking for a quiet home.</p>
-            </div>
-          </article>
-
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#efe7d8;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="56" r="26" fill="#332e2a"/><path d="M32 38 L26 18 L42 34 Z" fill="#332e2a"/><path d="M68 38 L74 18 L58 34 Z" fill="#332e2a"/><circle cx="42" cy="54" r="3" fill="#efe7d8"/><circle cx="58" cy="54" r="3" fill="#efe7d8"/><path d="M45 62 Q50 66 55 62" stroke="#efe7d8" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Shadow <span class="tag">Cat</span></h3>
-              <p class="animal-meta">Domestic shorthair &middot; 3 years &middot; Playful</p>
-              <p>Loves feather toys and warm laps in equal measure.</p>
-            </div>
-          </article>
-
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#e6ebe1;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="55" r="30" fill="#efe7d8" stroke="#e0d5bd" stroke-width="2"/><path d="M26 40 Q18 15 38 25 Q40 42 34 48 Z" fill="#e0d5bd"/><path d="M74 40 Q82 15 62 25 Q60 42 66 48 Z" fill="#e0d5bd"/><circle cx="40" cy="52" r="3.2" fill="#332e2a"/><circle cx="60" cy="52" r="3.2" fill="#332e2a"/><ellipse cx="50" cy="64" rx="6" ry="4" fill="#332e2a"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Coco <span class="tag">Dog</span></h3>
-              <p class="animal-meta">Jack Russell cross &middot; 8 months &middot; Energetic</p>
-              <p>A bundle of energy best suited to an active household.</p>
-            </div>
-          </article>
-
-          <article class="animal-card">
-            <div class="animal-photo" style="background:#efe7d8;">
-              <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="56" r="26" fill="#8fa37e"/><path d="M32 38 L26 18 L42 34 Z" fill="#6d8564"/><path d="M68 38 L74 18 L58 34 Z" fill="#6d8564"/><circle cx="42" cy="54" r="3" fill="#332e2a"/><circle cx="58" cy="54" r="3" fill="#332e2a"/><path d="M45 62 Q50 66 55 62" stroke="#332e2a" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-            </div>
-            <div class="animal-card-body">
-              <h3>Pixel <span class="tag">Cat</span></h3>
-              <p class="animal-meta">Tabby &middot; 5 years &middot; Affectionate</p>
-              <p>A lap cat through and through, gets along with other cats.</p>
-            </div>
-          </article>
-
+        <div id="no-results" class="empty-state" hidden>
+          <h3>No animals match your search</h3>
+          <p>Try a different word, or clear the filters to see everyone.</p>
+          <button type="button" id="reset-filters-empty" class="btn btn-primary">Show all animals</button>
         </div>
-        <p style="margin-top:var(--space-md); color:var(--color-charcoal-muted); font-size:0.9rem;">Illustrated placeholders shown above stand in for real intake photography — see <code>images/README.txt</code> for the sourcing plan ahead of final submission.</p>
+
+        <noscript>
+          <p>Our interactive animal search needs JavaScript. Here is everyone currently at the shelter:</p>
+          <ul class="plain-list"><li>Buddy &mdash; Cross-breed, 2 years (available)</li><li>Miso &mdash; Domestic shorthair, 1 year (available)</li><li>Nala &mdash; Boerboel cross, 4 years (meet-and-greet pending)</li><li>Shadow &mdash; Domestic shorthair, 3 years (available)</li><li>Coco &mdash; Jack Russell cross, 8 months (available)</li><li>Pixel &mdash; Tabby, 5 years (available)</li><li>Biscuit &mdash; Labrador cross, 6 years (available)</li><li>Luna &mdash; Siamese cross, 2 years (available)</li></ul>
+          <p><a href="enquiry.html?type=adopt">Send an adoption enquiry</a> to meet any of them.</p>
+        </noscript>
+
+        <p class="note">Illustrated placeholders stand in for real intake photography. See <code>images/README.txt</code> for the sourcing plan.</p>
       </div>
     </section>
 
-    <!-- ============ VOLUNTEER ============ -->
-    <section>
+    <!-- ============ GET INVOLVED (tabs) ============ -->
+    <section id="involved">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Get Involved</p>
-          <h2>Volunteer with us</h2>
-          <p>We rely entirely on volunteers to keep the shelter running. A few hours a week makes a real difference.</p>
+          <h2>Can&rsquo;t adopt right now? Volunteer, foster or sponsor</h2>
+          <p>We rely on volunteers and monthly sponsors to keep the shelter running. Pick a way to help below.</p>
         </div>
-        <div class="grid">
-          <div class="panel">
-            <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l4-9 4 9M6.5 15h3M14 20V9m0 0a3 3 0 106 0 3 3 0 00-6 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <h3>Dog walking &amp; enrichment</h3>
-            <p>Walk, play with, and socialise dogs waiting for adoption. No experience necessary — training provided.</p>
+
+        <div class="tabs">
+          <div class="tablist" role="tablist" aria-label="Ways to get involved">
+            <button type="button" role="tab" id="tab-volunteer" data-tab="volunteer" aria-controls="volunteer" aria-selected="true">Volunteer</button>
+            <button type="button" role="tab" id="tab-foster" data-tab="foster" aria-controls="foster" aria-selected="false" tabindex="-1">Foster</button>
+            <button type="button" role="tab" id="tab-sponsor" data-tab="sponsor" aria-controls="sponsor" aria-selected="false" tabindex="-1">Sponsor an animal</button>
           </div>
-          <div class="panel">
-            <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v9a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1v-9" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <h3>Foster care</h3>
-            <p>Open your home temporarily to an animal that needs space away from the shelter environment.</p>
+
+          <div role="tabpanel" id="volunteer" aria-labelledby="tab-volunteer" tabindex="0" class="tab-panel">
+            <h3 class="tab-heading">Volunteer with us</h3>
+            <p>A few hours a week makes a real difference. <a href="enquiry.html?type=volunteer">Tell us when you&rsquo;re free</a> and we&rsquo;ll match you to a role.</p>
+            <div class="grid">
+              <div class="panel">
+                <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l4-9 4 9M6.5 15h3M14 20V9m0 0a3 3 0 106 0 3 3 0 00-6 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Dog walking &amp; enrichment</h4>
+                <p>Walk, play with, and socialise dogs waiting for adoption. No experience necessary &mdash; training provided.</p>
+              </div>
+              <div class="panel">
+                <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16v16H4V4zM4 9h16M9 4v5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Admin &amp; events</h4>
+                <p>Help with adoption paperwork, social media, or our monthly open shelter day.</p>
+              </div>
+              <div class="panel">
+                <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7M7 19a1.6 1.6 0 100-3.2A1.6 1.6 0 007 19zM17 19a1.6 1.6 0 100-3.2 1.6 1.6 0 000 3.2z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <h4>Transport &amp; vet runs</h4>
+                <p>Drive animals to vet appointments and adoption events. A reliable car and a free morning are all you need.</p>
+              </div>
+            </div>
           </div>
-          <div class="panel">
-            <svg class="panel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16v16H4V4zM4 9h16M9 4v5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <h3>Admin &amp; events</h3>
-            <p>Help with adoption paperwork, social media, or our monthly open shelter day.</p>
+
+          <div role="tabpanel" id="foster" aria-labelledby="tab-foster" tabindex="0" class="tab-panel">
+            <h3 class="tab-heading">Open your home as a foster carer</h3>
+            <p>Foster care gives an animal a break from the shelter and frees up a kennel for the next rescue. Stays usually last two to eight weeks.</p>
+            <div class="grid">
+              <div class="panel">
+                <h4>What we provide</h4>
+                <p>Food, bedding, toys, and all vet care. You provide the love and a safe space.</p>
+              </div>
+              <div class="panel panel--sand">
+                <h4>What we ask</h4>
+                <p>A quiet corner, daily company, and a weekly check-in with our volunteer coordinator.</p>
+              </div>
+              <div class="panel">
+                <h4>Ready to start?</h4>
+                <p><a href="enquiry.html?type=volunteer&amp;role=foster">Ask about fostering</a> and we&rsquo;ll call you within two working days.</p>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" id="sponsor" aria-labelledby="tab-sponsor" tabindex="0" class="tab-panel">
+            <h3 class="tab-heading">Give monthly, change a life</h3>
+            <p>A monthly sponsorship covers food, vet care, and shelter costs for a specific animal. Choose a level and we&rsquo;ll send secure payment details by email.</p>
+            <div class="grid">
+            <div class="panel panel--sand">
+              <span class="tag tag--charcoal">Bronze</span>
+              <p class="panel-tier">R100<span class="per-month"> / month</span></p>
+              <p>Covers a week of food for one animal, plus a photo update every quarter.</p>
+              <a class="panel-link" href="enquiry.html?type=sponsor&amp;tier=bronze">Sponsor at this level<span class="visually-hidden"> (Bronze)</span></a>
+            </div>
+            <div class="panel">
+              <span class="tag">Silver</span>
+              <p class="panel-tier">R250<span class="per-month"> / month</span></p>
+              <p>Covers food and basic vet care, plus a monthly photo and progress update.</p>
+              <a class="panel-link" href="enquiry.html?type=sponsor&amp;tier=silver">Sponsor at this level<span class="visually-hidden"> (Silver)</span></a>
+            </div>
+            <div class="panel panel--moss">
+              <span class="tag">Gold</span>
+              <p class="panel-tier">R500<span class="per-month"> / month</span></p>
+              <p>Covers full care for one animal, plus a personal visit invitation each quarter.</p>
+              <a class="panel-link" href="enquiry.html?type=sponsor&amp;tier=gold">Sponsor at this level<span class="visually-hidden"> (Gold)</span></a>
+            </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ SPONSORSHIP ============ -->
-    <section class="section-alt">
+    <!-- ============ FAQ (accordion) ============ -->
+    <section class="section-alt" id="faq">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Sponsor an Animal</p>
-          <h2>Give monthly, change a life</h2>
-          <p>Can't adopt right now? A monthly sponsorship covers food, vet care, and shelter costs for a specific animal.</p>
+          <p class="eyebrow">Good to Know</p>
+          <h2>Adoption questions, answered</h2>
+          <p>Can&rsquo;t find what you need? <a href="contact.html">Contact the shelter</a> and we&rsquo;ll help.</p>
         </div>
-        <div class="grid">
-          <div class="panel panel--sand">
-            <span class="tag tag--charcoal">Bronze</span>
-            <p class="panel-tier">R100<span style="font-size:0.9rem; font-weight:500; color:var(--color-charcoal-muted);"> / month</span></p>
-            <p>Covers a week of food for one animal, plus a photo update every quarter.</p>
+        <div class="accordion">
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-1" aria-expanded="false" aria-controls="faq-panel-1">How much does it cost to adopt?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
+              <p>Adoption fees range from R600 for seniors to R1&nbsp;500 for puppies. Every animal is sterilised, vaccinated, dewormed and microchipped before they go home, so the fee is a fraction of what those treatments would cost you.</p>
+            </div>
           </div>
-          <div class="panel">
-            <span class="tag">Silver</span>
-            <p class="panel-tier">R250<span style="font-size:0.9rem; font-weight:500; color:var(--color-charcoal-muted);"> / month</span></p>
-            <p>Covers food and basic vet care, plus a monthly photo and progress update.</p>
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-2" aria-expanded="false" aria-controls="faq-panel-2">Can I adopt if I rent my home?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
+              <p>Yes. We just need written permission from your landlord or body corporate confirming that pets are allowed. We&rsquo;ll ask for it during the home check.</p>
+            </div>
           </div>
-          <div class="panel" style="border-left-color:#6d8564; background:#f3f6f1;">
-            <span class="tag">Gold</span>
-            <p class="panel-tier">R500<span style="font-size:0.9rem; font-weight:500; color:var(--color-charcoal-muted);"> / month</span></p>
-            <p>Covers full care for one animal, plus a personal visit invitation each quarter.</p>
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-3" aria-expanded="false" aria-controls="faq-panel-3">Do you do home checks?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
+              <p>We do a quick, friendly home visit or video call. It isn&rsquo;t a test &mdash; we simply want to make sure the space, garden and household suit the animal&rsquo;s needs.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-4" aria-expanded="false" aria-controls="faq-panel-4">What if it doesn&rsquo;t work out?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
+              <p>Every adopter signs an agreement that you will return the animal to us, never rehome them privately or surrender them elsewhere. We will always take them back, no questions asked.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-5" aria-expanded="false" aria-controls="faq-panel-5">Can I foster before I adopt?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
+              <p>Absolutely. Many of our best matches begin as a foster. Fostering lets you and the animal get to know each other, and we cover food, supplies and vet care. <a href="enquiry.html?type=volunteer&amp;role=foster">Ask about fostering</a>.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" class="accordion-trigger" id="faq-btn-6" aria-expanded="false" aria-controls="faq-panel-6">How do I know which animal is right for me?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="faq-panel-6" role="region" aria-labelledby="faq-btn-6">
+              <p>Use the search and filters above, then tell us about your home on the <a href="enquiry.html?type=adopt">enquiry form</a>. Our team will suggest a match &mdash; even if it isn&rsquo;t the animal you first had in mind.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -206,26 +293,35 @@
 
     <section class="cta-strip">
       <svg class="wave-divider" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true">
-        <path fill="#efe7d8" d="M0 25C240 5 480 35 720 20C960 5 1200 30 1440 10V0H0V25Z"/>
+        <path fill="#fdfbf7" d="M0 25C240 5 480 35 720 20C960 5 1200 30 1440 10V0H0V25Z"/>
       </svg>
       <div class="container">
-        <h2>Ready to adopt, foster, volunteer, or sponsor?</h2>
-        <p>One simple form covers all four — tell us what you'd like to do.</p>
-        <a href="enquiry.html" class="btn btn-outline">Go to the enquiry form</a>
+        <h2>Found someone special?</h2>
+        <p>Tell us which animal caught your eye and we&rsquo;ll be in touch within two working days.</p>
+        <a href="enquiry.html" class="btn btn-outline">Start an enquiry</a>
       </div>
     </section>
 
   </main>
 
+  <!-- Animal profile modal (content is filled in by js/adopt-page.js) -->
+  <dialog id="animal-dialog" class="dialog" aria-labelledby="dialog-title">
+    <button type="button" class="dialog-close" aria-label="Close animal profile">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="dialog-body"></div>
+  </dialog>
+
+  <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Paws &amp; Purpose Animal Rescue</h4>
-          <p style="color:#efe7d8;">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
+          <h2 class="footer-heading">Paws &amp; Purpose Animal Rescue</h2>
+          <p class="footer-blurb">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
         </div>
         <div>
-          <h4>Explore</h4>
+          <h2 class="footer-heading">Explore</h2>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Adopt &amp; Get Involved</a></li>
@@ -233,27 +329,32 @@
           </ul>
         </div>
         <div>
-          <h4>Visit</h4>
+          <h2 class="footer-heading">Visit</h2>
           <ul>
-            <li><a href="contact.html">Shelter Location</a></li>
-            <li><a href="contact.html">Satellite Intake Point</a></li>
+            <li><a href="contact.html#find-us">Shelter Location</a></li>
+            <li><a href="contact.html#find-us">Satellite Intake Point</a></li>
+            <li><a href="contact.html#message">Send Us a Message</a></li>
           </ul>
         </div>
         <div>
-          <h4>Follow</h4>
+          <h2 class="footer-heading">Follow</h2>
           <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
+        <span>&copy; <span data-year>2026</span> Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
         <span>Website built as part of an IIE web development assignment.</span>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="vendor/jquery/jquery-3.7.1.min.js" defer></script>
+  <script src="js/animals-data.js" defer></script>
+  <script src="js/animals-ui.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/adopt-page.js" defer></script>
 </body>
 </html>

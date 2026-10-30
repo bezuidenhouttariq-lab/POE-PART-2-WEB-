@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">A cat relaxing on a sunny windowsill</title><desc id="d">Illustration of a cream cat sitting on a windowsill beside a potted plant with sunlight streaming through the window.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe7d8"/><stop offset="1" stop-color="#efe7d8"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<rect x="0" y="0" width="1200" height="800" fill="#efe7d8"/><rect x="250" y="80" width="700" height="520" rx="14" fill="#cfe6ee" stroke="#332e2a" stroke-width="12"/><path d="M600 80 V600 M250 340 H950" stroke="#332e2a" stroke-width="12"/><polygon points="250,600 950,600 1100,800 100,800" fill="#f7e8b8" opacity="0.7"/><rect x="200" y="590" width="800" height="40" rx="8" fill="#e0d5bd"/><rect x="780" y="520" width="90" height="70" rx="8" fill="#b9805a"/><path d="M825 520 Q790 450 760 430 M825 520 Q850 440 880 410 M825 520 V420" stroke="#6d8564" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="760" cy="430" r="26" fill="#8fa37e"/><circle cx="880" cy="410" r="26" fill="#8fa37e"/><circle cx="825" cy="415" r="26" fill="#8fa37e"/><g transform="translate(480 420) scale(1.15 1.15)">
+<path d="M60 40 Q130 30 120 -40" stroke="#fdfbf7" stroke-width="16" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="45" rx="62" ry="68" fill="#fdfbf7" stroke="#e0d5bd" stroke-width="3"/>
+<circle cx="0" cy="-35" r="48" fill="#fdfbf7" stroke="#e0d5bd" stroke-width="3"/>
+<path d="M-38 -58 L-46 -110 L-8 -76 Z" fill="#e0d5bd"/><path d="M38 -58 L46 -110 L8 -76 Z" fill="#e0d5bd"/>
+<circle cx="-17" cy="-38" r="5.5" fill="#332e2a"/><circle cx="17" cy="-38" r="5.5" fill="#332e2a"/>
+<path d="M-9 -20 Q0 -12 9 -20" stroke="#332e2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</g><rect x="0" y="700" width="1200" height="100" fill="#e0d5bd"/>
+</svg>

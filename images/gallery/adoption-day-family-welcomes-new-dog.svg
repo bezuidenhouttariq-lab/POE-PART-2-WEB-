@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">Adoption day: a family welcomes a new dog</title><desc id="d">Illustration of two people and a sage-green dog wearing a red bow tie beside colourful balloons and a welcome-home banner.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8"/><stop offset="1" stop-color="#f4efe2"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<path d="M0 560 Q300 440 600 540 T1200 500 V800 H0 Z" fill="#8fa37e"/>
+<path d="M0 650 Q350 560 700 640 T1200 610 V800 H0 Z" fill="#6d8564"/><path d="M180 120 Q600 200 1020 120" stroke="#332e2a" stroke-width="3" fill="none"/><g font-family="Quicksand, Arial, sans-serif" font-weight="700" font-size="44" fill="#332e2a" text-anchor="middle"><rect x="360" y="135" width="480" height="76" rx="10" fill="#efe7d8" stroke="#332e2a" stroke-width="3" transform="rotate(2 600 173)"/><text x="600" y="190" transform="rotate(2 600 173)">Welcome home!</text></g><g><ellipse cx="170" cy="330" rx="46" ry="58" fill="#e5806b"/><ellipse cx="260" cy="290" rx="46" ry="58" fill="#f2c75c"/><ellipse cx="1000" cy="300" rx="46" ry="58" fill="#7fb0c9"/><ellipse cx="1090" cy="350" rx="46" ry="58" fill="#e5806b"/><path d="M170 388 L200 640 M260 348 L230 640 M1000 358 L970 640 M1090 408 L1060 640" stroke="#332e2a" stroke-width="2"/></g><g transform="translate(380 330) scale(1.15)">
+<rect x="-14" y="150" width="14" height="110" rx="7" fill="#332e2a"/><rect x="2" y="150" width="14" height="110" rx="7" fill="#332e2a"/>
+<rect x="-34" y="40" width="68" height="125" rx="26" fill="#6d8abf"/>
+<rect x="-52" y="52" width="20" height="90" rx="10" fill="#6d8abf"/><rect x="32" y="52" width="20" height="90" rx="10" fill="#6d8abf"/>
+<circle cx="0" cy="8" r="30" fill="#c68e6b"/>
+<path d="M-31 6 Q-30 -30 0 -28 Q31 -30 31 6 Q10 -8 -31 6 Z" fill="#332e2a"/>
+</g><g transform="translate(820 330) scale(1.1)">
+<rect x="-14" y="150" width="14" height="110" rx="7" fill="#332e2a"/><rect x="2" y="150" width="14" height="110" rx="7" fill="#332e2a"/>
+<rect x="-34" y="40" width="68" height="125" rx="26" fill="#d9a24b"/>
+<rect x="-52" y="52" width="20" height="90" rx="10" fill="#d9a24b"/><rect x="32" y="52" width="20" height="90" rx="10" fill="#d9a24b"/>
+<circle cx="0" cy="8" r="30" fill="#8a5a3c"/>
+<path d="M-31 6 Q-30 -30 0 -28 Q31 -30 31 6 Q10 -8 -31 6 Z" fill="#1f1b19"/>
+</g><g transform="translate(600 560) scale(0.9 0.9)">
+<path d="M-95 20 Q-135 -10 -120 -50" stroke="#8fa37e" stroke-width="18" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="40" rx="85" ry="70" fill="#8fa37e"/>
+<rect x="-55" y="85" width="34" height="40" rx="14" fill="#8fa37e"/><rect x="21" y="85" width="34" height="40" rx="14" fill="#8fa37e"/>
+<circle cx="25" cy="-40" r="55" fill="#8fa37e"/>
+<path d="M-18 -60 Q-45 -125 5 -100 Q10 -70 -2 -55 Z" fill="#6d8564"/>
+<path d="M68 -60 Q95 -120 52 -100 Q46 -70 56 -55 Z" fill="#6d8564"/>
+<circle cx="8" cy="-44" r="6" fill="#332e2a"/><circle cx="42" cy="-44" r="6" fill="#332e2a"/>
+<ellipse cx="25" cy="-22" rx="12" ry="8" fill="#332e2a"/>
+</g><path d="M570 510 l-30 -22 v44 z M630 510 l30 -22 v44 z" fill="#c0392b" transform="translate(5 -8)"/><circle cx="600" cy="510" r="10" fill="#c0392b" transform="translate(5 -8)"/>
+</svg>
