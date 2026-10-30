@@ -3,27 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Paws &amp; Purpose Animal Rescue</title>
-  <meta name="description" content="Find our shelter and satellite intake point in Johannesburg South, see our hours, or send us a message." />
+  <title>Contact &amp; Map | Paws &amp; Purpose Animal Shelter</title>
+  <meta name="description" content="Visit the Paws &amp; Purpose animal shelter in Rosettenville, Johannesburg South: opening hours, address, an interactive map and a form to send us a message." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#8fa37e" />
+  <link rel="canonical" href="https://paws-purpose-rescue.netlify.app/contact.html" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter: how the page looks when shared on Facebook, WhatsApp, X, LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paws &amp; Purpose Animal Rescue" />
+  <meta property="og:title" content="Contact &amp; Map | Paws &amp; Purpose Animal Shelter" />
+  <meta property="og:description" content="Visit the Paws &amp; Purpose animal shelter in Rosettenville, Johannesburg South: opening hours, address, an interactive map and a form to send us a message." />
+  <meta property="og:url" content="https://paws-purpose-rescue.netlify.app/contact.html" />
+  <meta property="og:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+  <meta property="og:image:alt" content="Illustration of a dog and a cat sitting together beside the Paws &amp; Purpose name" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact &amp; Map | Paws &amp; Purpose Animal Shelter" />
+  <meta name="twitter:description" content="Visit the Paws &amp; Purpose animal shelter in Rosettenville, Johannesburg South: opening hours, address, an interactive map and a form to send us a message." />
+  <meta name="twitter:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- Security: Content Security Policy (also sent as an HTTP header via _headers on Netlify) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Speed: connect to the font host early; display=swap shows text immediately -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+  <noscript><style>.tablist, .accordion-icon, .js-only { display: none !important; }</style></noscript>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://paws-purpose-rescue.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://paws-purpose-rescue.netlify.app/contact.html"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact Paws & Purpose Animal Rescue", "url": "https://paws-purpose-rescue.netlify.app/contact.html", "about": {"@id": "https://paws-purpose-rescue.netlify.app/#organization"}}</script>
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="brand">
-        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/>
-          <path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/>
-        </svg>
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/></svg>
         Paws &amp; Purpose
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
-      <nav class="main-nav" aria-label="Primary">
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">&#9776;</button>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -35,77 +67,129 @@
     </div>
   </header>
 
-  <main>
-    <section>
+  <main id="main" tabindex="-1">
+    <section id="find-us">
       <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Contact</li>
+          </ol>
+        </nav>
         <div class="section-head">
           <p class="eyebrow">Find Us</p>
-          <h1>Visit the shelter, or send us a message</h1>
-          <p class="lede">We're based in Johannesburg South, with a satellite intake point closer to the city centre for drop-offs and urgent cases.</p>
+          <h1>Visit our animal shelter in Rosettenville, Johannesburg South</h1>
+          <p class="lede">We&rsquo;re based in Johannesburg South, with a satellite intake point closer to the city centre for drop-offs and urgent cases.</p>
         </div>
 
         <div class="contact-grid">
-          <div>
-            <h3>Main shelter</h3>
-            <p>12 Rooiberg Road, Rosettenville, Johannesburg South, 2190</p>
+          <div class="contact-details">
+            <h2 class="h3-size">Main shelter</h2>
+            <address>12 Rooiberg Road, Rosettenville, Johannesburg South, 2190</address>
+            <p><button type="button" class="btn btn-secondary btn-small js-only" data-location="main">Show on map</button>
+               <a class="btn btn-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=-26.25,28.0583" target="_blank" rel="noopener noreferrer">Get directions<span class="visually-hidden"> to the main shelter (opens in a new tab)</span></a></p>
 
             <table class="hours-table">
-              <tr><td>Monday &ndash; Friday</td><td>9:00 &ndash; 17:00</td></tr>
-              <tr><td>Saturday</td><td>9:00 &ndash; 13:00</td></tr>
-              <tr><td>Sunday &amp; public holidays</td><td>Closed</td></tr>
+              <caption class="visually-hidden">Main shelter opening hours</caption>
+              <tr><th scope="row">Monday &ndash; Friday</th><td>9:00 &ndash; 17:00</td></tr>
+              <tr><th scope="row">Saturday</th><td>9:00 &ndash; 13:00</td></tr>
+              <tr><th scope="row">Sunday &amp; public holidays</th><td>Closed</td></tr>
             </table>
 
-            <h3 style="margin-top:var(--space-md);">Satellite intake point</h3>
-            <p>City &amp; Suburban Veterinary Clinic, 4 Anderson Street, City and Suburban, Johannesburg, 2001 &mdash; urgent drop-offs only, please call ahead.</p>
+            <h2 class="h3-size mt-md">Satellite intake point</h2>
+            <address>City &amp; Suburban Veterinary Clinic, 4 Anderson Street, City and Suburban, Johannesburg, 2001</address>
+            <p>Urgent drop-offs only, please call ahead.</p>
+            <p><button type="button" class="btn btn-secondary btn-small js-only" data-location="satellite">Show on map</button>
+               <a class="btn btn-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=-26.2085,28.0625" target="_blank" rel="noopener noreferrer">Get directions<span class="visually-hidden"> to the satellite intake point (opens in a new tab)</span></a></p>
           </div>
 
-          <div class="map-frame">
-            <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=27.9300%2C-26.3000%2C27.9700%2C-26.2600&layer=mapnik&marker=-26.2800%2C27.9500"
-              title="Map showing the approximate location of the Paws & Purpose shelter in Johannesburg South"
-              loading="lazy">
-            </iframe>
+          <div>
+            <div id="map" class="map" role="region" aria-label="Interactive map showing the Paws &amp; Purpose shelter and satellite intake point"></div>
+            <div class="map-tools js-only">
+              <button type="button" id="map-fit" class="btn btn-secondary btn-small">Show both locations</button>
+              <button type="button" id="map-locate" class="btn btn-secondary btn-small">Find my nearest location</button>
+            </div>
+            <p id="map-status" class="hint" role="status" aria-live="polite"></p>
+            <p class="hint">Map pins are approximate. Map data &copy; OpenStreetMap contributors.</p>
+            <noscript><p>The interactive map needs JavaScript. <a href="https://www.openstreetmap.org/?mlat=-26.25&amp;mlon=28.0583#map=14/-26.25/28.0583" target="_blank" rel="noopener noreferrer">Open the area in OpenStreetMap</a>.</p></noscript>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-alt">
+    <section class="section-alt" id="message">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Get In Touch</p>
           <h2>Send us a message</h2>
-          <p>For adoption, volunteering, or sponsorship enquiries, please use the <a href="enquiry.html">enquiry form</a> instead — it routes faster. Use this form for anything else.</p>
+          <p>For adoption, volunteering, or sponsorship questions, please use the <a href="enquiry.html">enquiry form</a> instead &mdash; it gives you an instant answer. Use this form for anything else, and we&rsquo;ll turn it into an email you can send.</p>
         </div>
 
-        <form class="form-card" action="#" method="post">
+        <form class="form-card" id="contact-form" name="contact" method="post" action="thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="visually-hidden" aria-hidden="true"><label>Leave this field empty <input type="text" name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+
           <div class="form-row">
             <label for="c-name">Full name</label>
-            <input type="text" id="c-name" name="name" required>
+            <input type="text" id="c-name" name="name" required minlength="2" maxlength="60" autocomplete="name" />
+          </div>
+          <div class="grid grid--2 form-pair">
+            <div class="form-row">
+              <label for="c-email">Email address</label>
+              <input type="email" id="c-email" name="email" required maxlength="254" autocomplete="email" />
+            </div>
+            <div class="form-row">
+              <label for="c-phone">Phone number <span class="optional">(optional)</span></label>
+              <input type="tel" id="c-phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="e.g. 011 123 4567" aria-describedby="c-phone-hint" />
+              <span class="hint" id="c-phone-hint">South African format, e.g. 011 123 4567 or +27 11 123 4567.</span>
+            </div>
           </div>
           <div class="form-row">
-            <label for="c-email">Email address</label>
-            <input type="email" id="c-email" name="email" required>
+            <label for="c-type">What is your message about?</label>
+            <select id="c-type" name="message-type" required>
+              <option value="">Choose&hellip;</option>
+              <option value="general">General question</option>
+              <option value="feedback">Feedback about the shelter or website</option>
+              <option value="media">Media or partnership request</option>
+              <option value="donation">Donating food, blankets or supplies</option>
+              <option value="stray">Reporting a stray or an animal in need</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="c-subject">Subject</label>
+            <input type="text" id="c-subject" name="subject" required minlength="5" maxlength="80" />
           </div>
           <div class="form-row">
             <label for="c-message">Message</label>
-            <textarea id="c-message" name="message" required></textarea>
+            <textarea id="c-message" name="message" required minlength="20" data-counter="c-counter" data-max="800" aria-describedby="c-counter"></textarea>
+            <span class="hint counter" id="c-counter">0 / 800 characters</span>
           </div>
-          <button type="submit" class="btn btn-primary">Send message</button>
+          <div class="form-row form-row--check">
+            <label class="check">
+              <input type="checkbox" id="c-consent" name="consent" value="yes" required />
+              <span>I agree that Paws &amp; Purpose may use these details to reply to my message.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Prepare my message</button>
         </form>
+
+        <!-- Filled in by js/contact.js: the compiled email + send button -->
+        <section id="contact-result" class="result-panel result-panel--ok" tabindex="-1" hidden></section>
       </div>
     </section>
   </main>
 
+  <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Paws &amp; Purpose Animal Rescue</h4>
-          <p style="color:#efe7d8;">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
+          <h2 class="footer-heading">Paws &amp; Purpose Animal Rescue</h2>
+          <p class="footer-blurb">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
         </div>
         <div>
-          <h4>Explore</h4>
+          <h2 class="footer-heading">Explore</h2>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Adopt &amp; Get Involved</a></li>
@@ -113,27 +197,33 @@
           </ul>
         </div>
         <div>
-          <h4>Visit</h4>
+          <h2 class="footer-heading">Visit</h2>
           <ul>
-            <li><a href="contact.html">Shelter Location</a></li>
-            <li><a href="contact.html">Satellite Intake Point</a></li>
+            <li><a href="contact.html#find-us">Shelter Location</a></li>
+            <li><a href="contact.html#find-us">Satellite Intake Point</a></li>
+            <li><a href="contact.html#message">Send Us a Message</a></li>
           </ul>
         </div>
         <div>
-          <h4>Follow</h4>
+          <h2 class="footer-heading">Follow</h2>
           <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
+        <span>&copy; <span data-year>2026</span> Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
         <span>Website built as part of an IIE web development assignment.</span>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="vendor/leaflet/leaflet.js" defer></script>
+  <script src="js/animals-data.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/forms-core.js" defer></script>
+  <script src="js/contact.js" defer></script>
+  <script src="js/map.js" defer></script>
 </body>
 </html>

@@ -3,27 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enquire | Paws &amp; Purpose Animal Rescue</title>
-  <meta name="description" content="Enquire about adopting an animal, volunteering, or becoming a monthly sponsor at Paws & Purpose Animal Rescue." />
+  <title>Adopt, Volunteer or Sponsor Enquiry | Paws &amp; Purpose</title>
+  <meta name="description" content="Ask about adopting a rescue dog or cat, volunteering, or sponsoring an animal in Johannesburg South and get an instant answer on cost and availability." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#8fa37e" />
+  <link rel="canonical" href="https://paws-purpose-rescue.netlify.app/enquiry.html" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter: how the page looks when shared on Facebook, WhatsApp, X, LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paws &amp; Purpose Animal Rescue" />
+  <meta property="og:title" content="Adopt, Volunteer or Sponsor Enquiry | Paws &amp; Purpose" />
+  <meta property="og:description" content="Ask about adopting a rescue dog or cat, volunteering, or sponsoring an animal in Johannesburg South and get an instant answer on cost and availability." />
+  <meta property="og:url" content="https://paws-purpose-rescue.netlify.app/enquiry.html" />
+  <meta property="og:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+  <meta property="og:image:alt" content="Illustration of a dog and a cat sitting together beside the Paws &amp; Purpose name" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Adopt, Volunteer or Sponsor Enquiry | Paws &amp; Purpose" />
+  <meta name="twitter:description" content="Ask about adopting a rescue dog or cat, volunteering, or sponsoring an animal in Johannesburg South and get an instant answer on cost and availability." />
+  <meta name="twitter:image" content="https://paws-purpose-rescue.netlify.app/images/og-image.png" />
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- Security: Content Security Policy (also sent as an HTTP header via _headers on Netlify) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://tile.openstreetmap.org; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Speed: connect to the font host early; display=swap shows text immediately -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <noscript><style>.tablist, .accordion-icon, .js-only { display: none !important; }</style></noscript>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://paws-purpose-rescue.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Enquire", "item": "https://paws-purpose-rescue.netlify.app/enquiry.html"}]}</script>
 </head>
 <body>
 
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="brand">
-        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/>
-          <path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/>
-        </svg>
+        <svg class="brand-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="7" cy="7" r="2.4"/><circle cx="12.5" cy="4.6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><path d="M12.5 10.2c-3.6 0-6.4 2.6-6.4 5.4 0 1.6 1.2 2.8 2.9 2.8.9 0 1.6-.3 2.4-.6.7-.3 1.4-.3 2.1 0 .8.3 1.5.6 2.4.6 1.7 0 2.9-1.2 2.9-2.8 0-2.8-2.7-5.4-6.3-5.4z"/></svg>
         Paws &amp; Purpose
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
-      <nav class="main-nav" aria-label="Primary">
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">&#9776;</button>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -35,24 +65,33 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
     <section>
       <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Enquire</li>
+          </ol>
+        </nav>
         <div class="section-head">
           <p class="eyebrow">One Form, Four Ways to Help</p>
-          <h1>Tell us how you'd like to get involved</h1>
-          <p class="lede">Adopt, foster, volunteer, or sponsor — pick one below and fill in a few details. We reply within two working days.</p>
+          <h1>Tell us how you&rsquo;d like to get involved</h1>
+          <p class="lede">Adopt, foster, volunteer, or sponsor &mdash; pick one below and fill in a few details. You&rsquo;ll see the cost and availability straight away, and we reply within two working days. For anything else, use our <a href="contact.html#message">contact form</a>.</p>
         </div>
 
-        <form class="form-card" action="#" method="post">
+        <form class="form-card" id="enquiry-form" name="enquiry" method="post" action="thanks.html" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="enquiry" />
+          <input type="hidden" name="reference" value="" />
+          <p class="visually-hidden" aria-hidden="true"><label>Leave this field empty <input type="text" name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
 
           <fieldset>
             <legend>What are you enquiring about?</legend>
             <div class="enquiry-type-group">
-              <label><input type="radio" name="enquiry-type" value="adopt" checked> Adopting an animal</label>
-              <label><input type="radio" name="enquiry-type" value="volunteer"> Volunteering</label>
-              <label><input type="radio" name="enquiry-type" value="sponsor"> Sponsoring an animal</label>
-              <label><input type="radio" name="enquiry-type" value="general"> General question</label>
+              <label><input type="radio" name="enquiry-type" value="adopt" checked /> Adopting an animal</label>
+              <label><input type="radio" name="enquiry-type" value="volunteer" /> Volunteering</label>
+              <label><input type="radio" name="enquiry-type" value="sponsor" /> Sponsoring an animal</label>
+              <label><input type="radio" name="enquiry-type" value="general" /> General question</label>
             </div>
           </fieldset>
 
@@ -61,48 +100,136 @@
 
             <div class="form-row">
               <label for="full-name">Full name</label>
-              <input type="text" id="full-name" name="full-name" required>
+              <input type="text" id="full-name" name="full-name" required minlength="2" maxlength="60" autocomplete="name" />
             </div>
 
-            <div class="grid grid--2" style="gap: var(--space-sm); margin-bottom: var(--space-sm);">
-              <div class="form-row" style="margin-bottom:0;">
+            <div class="grid grid--2 form-pair">
+              <div class="form-row">
                 <label for="email">Email address</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required maxlength="254" autocomplete="email" />
               </div>
-              <div class="form-row" style="margin-bottom:0;">
-                <label for="phone">Phone number</label>
-                <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567">
+              <div class="form-row">
+                <label for="phone">Phone number <span class="optional">(optional)</span></label>
+                <input type="tel" id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="e.g. 082 123 4567" aria-describedby="phone-hint" />
+                <span class="hint" id="phone-hint">South African format, e.g. 082 123 4567 or +27 82 123 4567.</span>
               </div>
             </div>
+          </fieldset>
 
+          <fieldset data-for="adopt">
+            <legend>About the adoption</legend>
             <div class="form-row">
-              <label for="animal-name">Animal's name (if applicable)</label>
-              <input type="text" id="animal-name" name="animal-name" placeholder="e.g. Buddy — leave blank for volunteering or general enquiries">
+              <label for="animal">Which animal?</label>
+              <select id="animal" name="animal" required>
+                  <option value="">Choose&hellip;</option>
+                  <option value="unsure">Not sure yet &mdash; help me choose</option>
+                  <option value="buddy">Buddy &mdash; Cross-breed, 2 years</option>
+                  <option value="miso">Miso &mdash; Domestic shorthair, 1 year</option>
+                  <option value="nala">Nala &mdash; Boerboel cross, 4 years (meet-and-greet pending)</option>
+                  <option value="shadow">Shadow &mdash; Domestic shorthair, 3 years</option>
+                  <option value="coco">Coco &mdash; Jack Russell cross, 8 months</option>
+                  <option value="pixel">Pixel &mdash; Tabby, 5 years</option>
+                  <option value="biscuit">Biscuit &mdash; Labrador cross, 6 years</option>
+                  <option value="luna">Luna &mdash; Siamese cross, 2 years</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="meet-date">Preferred meet-and-greet date</label>
+              <input type="date" id="meet-date" name="meet-date" required aria-describedby="meet-date-hint" />
+              <span class="hint" id="meet-date-hint">Within the next 60 days. We&rsquo;re closed on Sundays and public holidays.</span>
+            </div>
+          </fieldset>
+
+          <fieldset data-for="volunteer">
+            <legend>About volunteering</legend>
+            <div class="form-row">
+              <label for="volunteer-role">Which role interests you?</label>
+              <select id="volunteer-role" name="volunteer-role" required>
+                  <option value="">Choose&hellip;</option>
+                  <option value="dog-walking">Dog walking &amp; enrichment</option>
+                  <option value="admin-events">Admin &amp; events</option>
+                  <option value="transport">Transport &amp; vet runs</option>
+                  <option value="foster">Foster care</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="availability">When are you usually free?</label>
+              <select id="availability" name="availability" required>
+                  <option value="">Choose&hellip;</option>
+                  <option value="weekdays">Weekdays</option>
+                  <option value="weekends">Weekends</option>
+                  <option value="both">Both weekdays and weekends</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset data-for="sponsor">
+            <legend>About sponsoring</legend>
+            <div class="form-row">
+              <label for="tier">Sponsorship level</label>
+              <select id="tier" name="tier" required>
+                  <option value="">Choose&hellip;</option>
+                  <option value="bronze">Bronze &mdash; R100 / month</option>
+                  <option value="silver">Silver &mdash; R250 / month</option>
+                  <option value="gold">Gold &mdash; R500 / month</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="sponsor-animal">Which animal would you like to sponsor?</label>
+              <select id="sponsor-animal" name="sponsor-animal" required>
+                  <option value="">Choose&hellip;</option>
+                  <option value="any">Wherever it&rsquo;s needed most</option>
+                  <option value="buddy">Buddy &mdash; Cross-breed, 2 years</option>
+                  <option value="miso">Miso &mdash; Domestic shorthair, 1 year</option>
+                  <option value="nala">Nala &mdash; Boerboel cross, 4 years (meet-and-greet pending)</option>
+                  <option value="shadow">Shadow &mdash; Domestic shorthair, 3 years</option>
+                  <option value="coco">Coco &mdash; Jack Russell cross, 8 months</option>
+                  <option value="pixel">Pixel &mdash; Tabby, 5 years</option>
+                  <option value="biscuit">Biscuit &mdash; Labrador cross, 6 years</option>
+                  <option value="luna">Luna &mdash; Siamese cross, 2 years</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your message</legend>
+            <div class="form-row">
+              <label for="message" id="message-label">Tell us a bit more</label>
+              <textarea id="message" name="message" required minlength="20" placeholder="Tell us about your home, garden and any current pets." data-counter="message-counter" data-max="500" aria-describedby="message-counter"></textarea>
+              <span class="hint counter" id="message-counter">0 / 500 characters</span>
             </div>
 
-            <div class="form-row">
-              <label for="message">Tell us a bit more</label>
-              <textarea id="message" name="message" placeholder="Your household, availability, or what you'd like to know" required></textarea>
-              <span class="hint">For adoption enquiries, it helps to mention your home setup and any current pets.</span>
+            <div class="form-row form-row--check">
+              <label class="check">
+                <input type="checkbox" id="consent" name="consent" value="yes" required />
+                <span>I agree that Paws &amp; Purpose may contact me about this enquiry and keep my details for that purpose.</span>
+              </label>
+              <span class="hint">We never share your details. See the Protection of Personal Information Act (POPIA).</span>
             </div>
           </fieldset>
 
           <button type="submit" class="btn btn-primary">Send enquiry</button>
-          <p class="hint" style="margin-top:var(--space-sm);">Form submission and validation will be wired up with JavaScript in Part 3 of this project.</p>
+          <p class="hint form-footnote">Please never type banking or card details into this form.</p>
         </form>
+
+        <!-- Filled in by js/enquiry.js after a valid submission -->
+        <section id="enquiry-result" class="result-panel" tabindex="-1" hidden></section>
+
+        <noscript><p class="note">This form needs JavaScript for instant answers, but it will still reach us if you submit it.</p></noscript>
       </div>
     </section>
   </main>
 
+  <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
-          <h4>Paws &amp; Purpose Animal Rescue</h4>
-          <p style="color:#efe7d8;">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
+          <h2 class="footer-heading">Paws &amp; Purpose Animal Rescue</h2>
+          <p class="footer-blurb">A non-profit rescuing, rehabilitating, and rehoming animals in Johannesburg South since 2018.</p>
         </div>
         <div>
-          <h4>Explore</h4>
+          <h2 class="footer-heading">Explore</h2>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Adopt &amp; Get Involved</a></li>
@@ -110,27 +237,32 @@
           </ul>
         </div>
         <div>
-          <h4>Visit</h4>
+          <h2 class="footer-heading">Visit</h2>
           <ul>
-            <li><a href="contact.html">Shelter Location</a></li>
-            <li><a href="contact.html">Satellite Intake Point</a></li>
+            <li><a href="contact.html#find-us">Shelter Location</a></li>
+            <li><a href="contact.html#find-us">Satellite Intake Point</a></li>
+            <li><a href="contact.html#message">Send Us a Message</a></li>
           </ul>
         </div>
         <div>
-          <h4>Follow</h4>
+          <h2 class="footer-heading">Follow</h2>
           <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
+        <span>&copy; <span data-year>2026</span> Paws &amp; Purpose Animal Rescue. All rights reserved.</span>
         <span>Website built as part of an IIE web development assignment.</span>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/animals-data.js" defer></script>
+  <script src="js/animals-ui.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/forms-core.js" defer></script>
+  <script src="js/enquiry.js" defer></script>
 </body>
 </html>
