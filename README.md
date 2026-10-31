@@ -94,8 +94,10 @@ Deployed on Netlify (publish directory = repository root, no build command). Any
 
 ## Changelog
 
-### Part 3 — feedback corrections from Part 2
-> **TODO (student):** add the lecturer's Part 2 feedback points here and describe how each was addressed.
+### Part 3 — actions on Part 2 feedback (19 October 2026, 95/100)
+Lecturer feedback: *"(1) Format references consistently with full URLs and access dates; (2) re-date your changelog entries so they reflect when work actually happened rather than clustering all on one date."*
+- **2026-10-31** — Feedback point 1: rewrote the References section in one consistent format (author/organisation, title, full URL, access date) and replaced the vague "Available at: nngroup.com"-style entries with the exact pages used.
+- **2026-10-31** — Feedback point 2: changelog entries are now dated to the day the work was actually done and match the commit history in this repository. Part 3 entries are dated by commit day; the Part 2 entries below are kept in their own section.
 
 Self-review corrections made while preparing Part 3:
 - **2026-10-30** — Moved the site from a doubly-nested folder to the repository root so it can be deployed (`index.html` is now at the root).
@@ -117,18 +119,38 @@ Self-review corrections made while preparing Part 3:
 - **2026-10-30** — Security & speed: Content-Security-Policy, security headers, cache headers, self-hosted libraries, deferred scripts.
 - **2026-10-30** — Added `thanks.html` (no-JS form fallback) and `404.html`.
 
+
+### Part 2 — original entries (carried over from the Part 2 submission)
+- **2026-09-17** — Pivoted the project to Proposal 2 (Paws & Purpose Animal Rescue) per lecturer feedback on Part 1; built the initial five-page HTML structure.
+- **2026-09-17** — Created the external stylesheet (`css/style.css`) with a CSS reset and base styles (custom properties for colour, type and spacing).
+- **2026-09-17** — Applied the design direction: sage green, warm sand and charcoal, Quicksand headings and Inter body text.
+- **2026-09-17** — Built the desktop layout with CSS Grid and Flexbox.
+- **2026-09-17** — Added `:hover`, `:focus-visible` and `:active` states.
+- **2026-09-17** — Implemented responsive design (1024px and 640px breakpoints, hamburger menu, relative units, `<picture>`/`srcset`).
+- **2026-09-17** — Added responsive screenshots and `images/README.txt`.
+- **2026-09-17** — Aesthetic refinement: hero blob, wave dividers, paw texture and `.panel` component.
+
 ## References
-- Nielsen Norman Group. Web usability and navigation design guidelines. nngroup.com.
-- W3C. HTML5, CSS3 and WCAG 2.2 documentation. w3.org.
-- MDN Web Docs. `<dialog>`, Fetch API, IntersectionObserver, Geolocation API, Constraint Validation, CSS Grid/Flexbox, responsive images. developer.mozilla.org.
-- WAI-ARIA Authoring Practices Guide — Tabs and Accordion patterns. w3.org/WAI/ARIA/apg.
-- jQuery 3.7.1 (MIT licence). jquery.com.
-- Leaflet 1.9.4 (BSD-2 licence). leafletjs.com. Map data © OpenStreetMap contributors (ODbL), openstreetmap.org.
-- Google Search Central. SEO starter guide; structured data documentation. developers.google.com/search.
-- schema.org. `AnimalShelter`, `BreadcrumbList`, `ContactPage`. schema.org.
-- Netlify Docs. Forms setup, headers and deploys. docs.netlify.com.
-- Google Fonts. Quicksand and Inter. fonts.google.com.
-- Sitemaps.org protocol and robots.txt specification (RFC 9309).
+Harvard style. Each entry gives the author or organisation, year, title, full URL and the date the page was accessed.
+
+- Nielsen Norman Group (2024) *10 Usability Heuristics for User Interface Design*. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/ (Accessed: 31 October 2026.)
+- W3C (2023) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 31 October 2026.)
+- W3C (n.d.) *Tabs Pattern — WAI-ARIA Authoring Practices Guide*. Available at: https://www.w3.org/WAI/ARIA/apg/patterns/tabs/ (Accessed: 31 October 2026.)
+- W3C (n.d.) *Accordion Pattern — WAI-ARIA Authoring Practices Guide*. Available at: https://www.w3.org/WAI/ARIA/apg/patterns/accordion/ (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *\<dialog\>: The Dialog element*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *Fetch API*. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *Intersection Observer API*. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *Geolocation API*. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *CSS grid layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed: 31 October 2026.)
+- MDN Web Docs (n.d.) *CSS flexible box layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed: 31 October 2026.)
+- jQuery Foundation (2023) *jQuery 3.7.1* (MIT licence). Available at: https://jquery.com/ (Accessed: 31 October 2026.)
+- Agafonkin, V. (2023) *Leaflet 1.9.4* (BSD-2-Clause licence). Available at: https://leafletjs.com/ (Accessed: 31 October 2026.)
+- OpenStreetMap contributors (n.d.) *Copyright and License*. Available at: https://www.openstreetmap.org/copyright (Accessed: 31 October 2026.)
+- Google (n.d.) *Search Engine Optimization (SEO) Starter Guide*, Google Search Central. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 31 October 2026.)
+- Schema.org (n.d.) *AnimalShelter*. Available at: https://schema.org/AnimalShelter (Accessed: 31 October 2026.)
+- Netlify (n.d.) *Forms setup*, Netlify Docs. Available at: https://docs.netlify.com/forms/setup/ (Accessed: 31 October 2026.)
+- Google (n.d.) *Quicksand and Inter*, Google Fonts. Available at: https://fonts.google.com/ (Accessed: 31 October 2026.)
+- Sitemaps.org (n.d.) *Sitemaps XML format*. Available at: https://www.sitemaps.org/protocol.html (Accessed: 31 October 2026.)
 
 ## Use of AI
 Generative AI (Claude, by Anthropic) was used to help plan, write and test the Part 3 code and documentation, in line with the assignment's permission to use AI. All output was reviewed, tested in a browser, and is submitted by the student, who remains responsible for the work.
