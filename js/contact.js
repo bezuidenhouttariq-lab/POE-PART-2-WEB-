@@ -19,7 +19,7 @@
      (.example is a reserved domain, so this placeholder can never
      deliver to a stranger.)
      ------------------------------------------------------------------ */
-  var RECIPIENT = "info@pawsandpurpose.example";
+  var RECIPIENT = "bezuidenhouttariq@gmail.com";
 
   var form = document.getElementById("contact-form");
   if (!form || !window.PP || !PP.forms) return;
