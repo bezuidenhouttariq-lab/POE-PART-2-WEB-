@@ -10,7 +10,7 @@ Paws & Purpose Animal Rescue — Non-Profit Website (Part 3: Enhancing Functiona
 - Subject: Web and Emerging Development Environments (WEDE)
 
 ## Live Site and Repository
-- **Live site:** https://paws-purpose-rescue.netlify.app  *(update if your Netlify URL differs)*
+- **Live site:** https://poepart3.netlify.app  *(update if your Netlify URL differs)*
 - **Repository:** https://github.com/bezuidenhouttariq-lab/POE-PART-2-WEB-
 
 ## Project Overview

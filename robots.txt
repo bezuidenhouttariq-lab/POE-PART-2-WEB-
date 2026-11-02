@@ -5,4 +5,4 @@ Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
 
-Sitemap: https://paws-purpose-rescue.netlify.app/sitemap.xml
+Sitemap: https://poepart3.netlify.app/sitemap.xml
